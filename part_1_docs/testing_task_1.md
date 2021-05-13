@@ -18,24 +18,24 @@ class CardGame:
 
 
   def check_for_ace(self, card):
-    if card.value = 1:
+    if card.value = 1: # should be ==
       return True
     else # needs : here 
       return False
    
 
-  dif highest_card(self, card1 card2): # missing comma after card1
-  if card1.value > card2.value:
-    return card
+  dif highest_card(self, card1 card2): # missing comma after card1, mis-spell def
+  if card1.value > card2.value: # indent here
+    return card # should be card 1
   else:
     return card2
   
 
 
-def cards_total(self, cards):
+def cards_total(self, cards): # should be be indented
   total # this variable needs a value to start with
   for card in cards:
     total += card.value
-    return "You have a total of" + total
+    return "You have a total of" + total # change int to str # return should go back 1 indent
   
 ```
